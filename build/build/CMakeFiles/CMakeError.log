@@ -1,0 +1,470 @@
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wnon-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fbbfe/fast && /usr/bin/make -f CMakeFiles/cmTC_fbbfe.dir/build.make CMakeFiles/cmTC_fbbfe.dir/build
+make[1]: Entering directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fbbfe.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type  -Wnon-virtual-dtor -o CMakeFiles/cmTC_fbbfe.dir/src.c.o   -c /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wnon-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_fbbfe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbbfe.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_fbbfe.dir/src.c.o  -o cmTC_fbbfe 
+make[1]: Leaving directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_191fb/fast && /usr/bin/make -f CMakeFiles/cmTC_191fb.dir/build.make CMakeFiles/cmTC_191fb.dir/build
+make[1]: Entering directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_191fb.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wmissing-prototypes -std=c++11 -o CMakeFiles/cmTC_191fb.dir/src.cxx.o -c /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_191fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_191fb.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    CMakeFiles/cmTC_191fb.dir/src.cxx.o  -o cmTC_191fb 
+make[1]: Leaving directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3f28f/fast && /usr/bin/make -f CMakeFiles/cmTC_3f28f.dir/build.make CMakeFiles/cmTC_3f28f.dir/build
+make[1]: Entering directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3f28f.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations  -Wstrict-prototypes -std=c++11 -o CMakeFiles/cmTC_3f28f.dir/src.cxx.o -c /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_3f28f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f28f.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    CMakeFiles/cmTC_3f28f.dir/src.cxx.o  -o cmTC_3f28f 
+make[1]: Leaving directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bb66c/fast && /usr/bin/make -f CMakeFiles/cmTC_bb66c.dir/build.make CMakeFiles/cmTC_bb66c.dir/build
+make[1]: Entering directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb66c.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo -o CMakeFiles/cmTC_bb66c.dir/src.c.o   -c /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_bb66c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb66c.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_bb66c.dir/src.c.o  -o cmTC_bb66c 
+make[1]: Leaving directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_40bd2/fast && /usr/bin/make -f CMakeFiles/cmTC_40bd2.dir/build.make CMakeFiles/cmTC_40bd2.dir/build
+make[1]: Entering directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40bd2.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wsuggest-override -o CMakeFiles/cmTC_40bd2.dir/src.c.o   -c /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C
+/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_40bd2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40bd2.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_40bd2.dir/src.c.o  -o cmTC_40bd2 
+make[1]: Leaving directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4bcc8/fast && /usr/bin/make -f CMakeFiles/cmTC_4bcc8.dir/build.make CMakeFiles/cmTC_4bcc8.dir/build
+make[1]: Entering directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4bcc8.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_4bcc8.dir/src.c.o   -c /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_4bcc8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bcc8.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_4bcc8.dir/src.c.o  -o cmTC_4bcc8 
+make[1]: Leaving directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_724ab/fast && /usr/bin/make -f CMakeFiles/cmTC_724ab.dir/build.make CMakeFiles/cmTC_724ab.dir/build
+make[1]: Entering directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_724ab.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args -std=c++11 -o CMakeFiles/cmTC_724ab.dir/src.cxx.o -c /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.cxx
+/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking CXX executable cmTC_724ab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_724ab.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    CMakeFiles/cmTC_724ab.dir/src.cxx.o  -o cmTC_724ab 
+make[1]: Leaving directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d9240/fast && /usr/bin/make -f CMakeFiles/cmTC_d9240.dir/build.make CMakeFiles/cmTC_d9240.dir/build
+make[1]: Entering directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9240.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized  -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_d9240.dir/src.c.o   -c /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.c
+/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking C executable cmTC_d9240
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9240.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_d9240.dir/src.c.o  -o cmTC_d9240 
+make[1]: Leaving directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5f580/fast && /usr/bin/make -f CMakeFiles/cmTC_5f580.dir/build.make CMakeFiles/cmTC_5f580.dir/build
+make[1]: Entering directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f580.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden -o CMakeFiles/cmTC_5f580.dir/src.c.o   -c /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_5f580
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f580.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    CMakeFiles/cmTC_5f580.dir/src.c.o  -o cmTC_5f580 
+make[1]: Leaving directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-implicit-const-int-float-conversion’'
+Compilation failed:
+    source file: '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c320c/fast && /usr/bin/make -f CMakeFiles/cmTC_c320c.dir/build.make CMakeFiles/cmTC_c320c.dir/build
+make[1]: Entering directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c320c.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-implicit-const-int-float-conversion -o CMakeFiles/cmTC_c320c.dir/src.c.o   -c /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.c
+/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: warning: unrecognized command line option ‘-Wno-implicit-const-int-float-conversion’
+Linking C executable cmTC_c320c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c320c.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_c320c.dir/src.c.o  -o cmTC_c320c 
+make[1]: Leaving directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the _aligned_malloc exist failed with the following output:
+Change Dir: /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4cee5/fast && /usr/bin/make -f CMakeFiles/cmTC_4cee5.dir/build.make CMakeFiles/cmTC_4cee5.dir/build
+make[1]: Entering directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4cee5.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -Wno-unused-but-set-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_4cee5.dir/CheckSymbolExists.c.o   -c /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘_aligned_malloc’ undeclared (first use in this function)
+    8 |   return ((int*)(&_aligned_malloc))[argc];
+      |                   ^~~~~~~~~~~~~~~
+/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+    4 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+make[1]: *** [CMakeFiles/cmTC_4cee5.dir/build.make:66: CMakeFiles/cmTC_4cee5.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_4cee5/fast] Error 2
+
+
+File /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _aligned_malloc
+  return ((int*)(&_aligned_malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’'
+Compilation failed:
+    source file: '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_99ef4/fast && /usr/bin/make -f CMakeFiles/cmTC_99ef4.dir/build.make CMakeFiles/cmTC_99ef4.dir/build
+make[1]: Entering directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_99ef4.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-inconsistent-missing-override -std=c++11 -o CMakeFiles/cmTC_99ef4.dir/src.cxx.o -c /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.cxx
+/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’
+Linking CXX executable cmTC_99ef4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99ef4.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_99ef4.dir/src.cxx.o  -o cmTC_99ef4 
+make[1]: Leaving directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command[- ]line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c0253/fast && /usr/bin/make -f CMakeFiles/cmTC_c0253.dir/build.make CMakeFiles/cmTC_c0253.dir/build
+make[1]: Entering directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c0253.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-missing-prototypes -std=c++11 -o CMakeFiles/cmTC_c0253.dir/src.cxx.o -c /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
+/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_c0253
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0253.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_c0253.dir/src.cxx.o  -o cmTC_c0253 
+make[1]: Leaving directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-implicit-const-int-float-conversion’'
+Compilation failed:
+    source file: '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-implicit-const-int-float-conversion'
+===== BUILD LOG =====
+Change Dir: /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2bec3/fast && /usr/bin/make -f CMakeFiles/cmTC_2bec3.dir/build.make CMakeFiles/cmTC_2bec3.dir/build
+make[1]: Entering directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2bec3.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare -Wno-reorder -Wno-unused-result  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-implicit-const-int-float-conversion -std=c++11 -o CMakeFiles/cmTC_2bec3.dir/src.cxx.o -c /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.cxx
+/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: warning: unrecognized command line option ‘-Wno-implicit-const-int-float-conversion’
+Linking CXX executable cmTC_2bec3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bec3.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wsign-promo -Wno-delete-non-virtual-dtor -Wno-comment -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations -Wno-misleading-indentation -Wno-deprecated -Wno-suggest-override -Wno-implicit-fallthrough -Wno-tautological-compare -Wno-reorder -Wno-unused-result  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_2bec3.dir/src.cxx.o  -o cmTC_2bec3 
+make[1]: Leaving directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_40373/fast && /usr/bin/make -f CMakeFiles/cmTC_40373.dir/build.make CMakeFiles/cmTC_40373.dir/build
+make[1]: Entering directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40373.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_40373.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_40373
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40373.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_40373.dir/CheckFunctionExists.c.o  -o cmTC_40373 
+/usr/bin/ld: CMakeFiles/cmTC_40373.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_40373.dir/build.make:87: cmTC_40373] Error 1
+make[1]: Leaving directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_40373/fast] Error 2
+
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’'
+Compilation failed:
+    source file: '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_47caf/fast && /usr/bin/make -f CMakeFiles/cmTC_47caf.dir/build.make CMakeFiles/cmTC_47caf.dir/build
+make[1]: Entering directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_47caf.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-tautological-undefined-compare -std=c++11 -o CMakeFiles/cmTC_47caf.dir/src.cxx.o -c /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.cxx
+/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: warning: unrecognized command line option ‘-Wno-tautological-undefined-compare’
+Linking CXX executable cmTC_47caf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47caf.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_47caf.dir/src.cxx.o  -o cmTC_47caf 
+make[1]: Leaving directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’'
+Compilation failed:
+    source file: '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_146de/fast && /usr/bin/make -f CMakeFiles/cmTC_146de.dir/build.make CMakeFiles/cmTC_146de.dir/build
+make[1]: Entering directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_146de.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-shorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_146de.dir/src.cxx.o -c /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.cxx
+/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: warning: unrecognized command line option ‘-Wno-shorten-64-to-32’
+Linking CXX executable cmTC_146de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_146de.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_146de.dir/src.cxx.o  -o cmTC_146de 
+make[1]: Leaving directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’'
+Compilation failed:
+    source file: '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-enum-compare-switch'
+===== BUILD LOG =====
+Change Dir: /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d3b81/fast && /usr/bin/make -f CMakeFiles/cmTC_d3b81.dir/build.make CMakeFiles/cmTC_d3b81.dir/build
+make[1]: Entering directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d3b81.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-enum-compare-switch -std=c++11 -o CMakeFiles/cmTC_d3b81.dir/src.cxx.o -c /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.cxx
+/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: warning: unrecognized command line option ‘-Wno-enum-compare-switch’
+Linking CXX executable cmTC_d3b81
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3b81.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Winit-self -Wpointer-arith -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-invalid-offsetof  -O3 -DNDEBUG  -DNDEBUG    -Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined  CMakeFiles/cmTC_d3b81.dir/src.cxx.o  -o cmTC_d3b81 
+make[1]: Leaving directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1650a/fast && /usr/bin/make -f CMakeFiles/cmTC_1650a.dir/build.make CMakeFiles/cmTC_1650a.dir/build
+make[1]: Entering directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1650a.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Wreturn-type -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_1650a.dir/CheckIncludeFile.c.o   -c /home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: No such file or directory
+    1 | #include <sys/videoio.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTC_1650a.dir/build.make:66: CMakeFiles/cmTC_1650a.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1650a/fast] Error 2
+
+
+
