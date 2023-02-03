@@ -1,3 +1,0 @@
-
-#include "/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/opencv/modules/core/test/test_precomp.hpp"
-#include "/home/yugoo90/CppND-Program-a-Concurrent-Traffic-Simulation/build/opencv/modules/core/test/test_intrin256.simd.hpp"
